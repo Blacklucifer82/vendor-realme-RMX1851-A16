@@ -85,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1971/proprietary/odm/vendor/firmware/a_fp.b06:$(TARGET_COPY_OUT_ODM)/vendor/firmware/a_fp.b06 \
     vendor/realme/RMX1971/proprietary/odm/vendor/firmware/a_fp.b07:$(TARGET_COPY_OUT_ODM)/vendor/firmware/a_fp.b07 \
     vendor/realme/RMX1971/proprietary/odm/vendor/firmware/a_fp.mdt:$(TARGET_COPY_OUT_ODM)/vendor/firmware/a_fp.mdt \
+    vendor/realme/RMX1971/proprietary/system/lib64/vendor.qti.diaghal-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.qti.diaghal-V1-ndk.so \
     vendor/realme/RMX1971/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/realme/RMX1971/proprietary/system_ext/bin/wfdservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/wfdservice \
     vendor/realme/RMX1971/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
@@ -126,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1971/proprietary/system_ext/lib/rfsa/adsp/libaiboost_skel_v65.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/rfsa/adsp/libaiboost_skel_v65.so \
     vendor/realme/RMX1971/proprietary/system_ext/lib/rfsa/adsp/libaiboost_skel_v66.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/rfsa/adsp/libaiboost_skel_v66.so \
     vendor/realme/RMX1971/proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
+    vendor/realme/RMX1971/proprietary/system_ext/lib/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk.so \
     vendor/realme/RMX1971/proprietary/system_ext/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/realme/RMX1971/proprietary/system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/realme/RMX1971/proprietary/system_ext/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/fm_helium.so \
