@@ -584,6 +584,7 @@ PRODUCT_PACKAGES += \
     libconfigdb \
     libcpion \
     libcvface_api \
+    libd++ \
     libdataitems \
     libdisp-aba \
     libdisplayqos \
@@ -618,6 +619,7 @@ PRODUCT_PACKAGES += \
     liblqe \
     libminkdescriptor \
     libminksocket \
+    libml_util \
     libmmcamera_faceproc \
     libmmcamera_faceproc2 \
     libnativehelpers \
@@ -872,6 +874,7 @@ PRODUCT_PACKAGES += \
     vendor.oplus.hardware.biometrics.fingerprint@2.1 \
     vendor.oplus.hardware.biometrics.fingerprintservice@1.0 \
     libaudioEngineerTest \
+    libavutil \
     liboemcrypto \
     libormshalclient \
     libswresample \
