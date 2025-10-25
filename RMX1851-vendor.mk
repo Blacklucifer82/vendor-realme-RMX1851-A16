@@ -266,16 +266,12 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1851/proprietary/vendor/firmware/ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b04 \
     vendor/realme/RMX1851/proprietary/vendor/firmware/ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.elf \
     vendor/realme/RMX1851/proprietary/vendor/firmware/ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.mdt \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.holitech_gc2375h.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.holitech_gc2375h.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.holitech_sp2509v.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.holitech_sp2509v.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_hi846.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_hi846.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.sunny_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.sunny_imx586.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.trulyi2c20_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.trulyi2c20_imx471.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.holitech_gc2375h.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.holitech_gc2375h.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.holitech_sp2509v.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.holitech_sp2509v.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_hi846.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_hi846.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.sunny_imx586.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.sunny_imx586.bin \
-    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.truly_imx471.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.truly_imx471.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_gc5035.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.ofilm_imx519.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.ofilm_imx519.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.sensormodule.truly_s5k2x5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.truly_s5k2x5.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.ofilm_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.ofilm_gc5035.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.ofilm_imx519.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.ofilm_imx519.bin \
+    vendor/realme/RMX1851/proprietary/vendor/lib64/camera/com.qti.tuned.truly_s5k2x5.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.truly_s5k2x5.bin \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
     vendor/realme/RMX1851/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
