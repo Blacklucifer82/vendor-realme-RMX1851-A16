@@ -289,9 +289,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     vendor.qti.diaghal-V1-ndk \
-    com.qti.sensor.gc2375h \
-    com.qti.sensor.gc5035 \
-    com.qti.sensor.hi846 \
     eglSubDriverAndroid \
     libEGL_adreno \
     libGLESv1_CM_adreno \
@@ -425,6 +422,9 @@ PRODUCT_PACKAGES += \
     libshoebox \
     vendor.qti.hardware.wifidisplaysession@1.0_vendor \
     vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl \
+    com.qti.sensor.gc2375h \
+    com.qti.sensor.gc5035 \
+    com.qti.sensor.hi846 \
     com.qti.sensor.imx316 \
     com.qti.sensor.imx362 \
     com.qti.sensor.imx471 \
@@ -675,6 +675,7 @@ PRODUCT_PACKAGES += \
     libssd \
     libstface_fd_api \
     libswregistrationalgo \
+    libswvdec \
     libsymphony-cpu \
     libsymphonypower \
     libsystem_health_mon \

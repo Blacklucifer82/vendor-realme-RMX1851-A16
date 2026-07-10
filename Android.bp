@@ -40,144 +40,6 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qti.sensor.gc2375h",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.qti.sensor.gc2375h.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "qcom.camera.log",
-                "vendor.oplus.hardware.orms@1.0",
-                "libormshalclient",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/com.qti.sensor.gc2375h.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "qcom.camera.log",
-                "vendor.oplus.hardware.orms@1.0",
-                "libormshalclient",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.sensor.gc5035",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.qti.sensor.gc5035.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "qcom.camera.log",
-                "vendor.oplus.hardware.orms@1.0",
-                "libormshalclient",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/com.qti.sensor.gc5035.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "qcom.camera.log",
-                "vendor.oplus.hardware.orms@1.0",
-                "libormshalclient",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "com.qti.sensor.hi846",
-    owner: "realme",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/camera/com.qti.sensor.hi846.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "qcom.camera.log",
-                "vendor.oplus.hardware.orms@1.0",
-                "libormshalclient",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/camera/com.qti.sensor.hi846.so",
-            ],
-            shared_libs: [
-                "libc++",
-                "libcutils",
-                "liblog",
-                "qcom.camera.log",
-                "vendor.oplus.hardware.orms@1.0",
-                "libormshalclient",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    relative_install_path: "camera",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
     name: "eglSubDriverAndroid",
     owner: "realme",
     strip: {
@@ -5033,6 +4895,96 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "com.qti.sensor.gc2375h",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.sensor.gc2375h.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "vendor.oplus.hardware.orms@1.0",
+                "libormshalclient",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.sensor.gc5035",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.sensor.gc5035.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "vendor.oplus.hardware.orms@1.0",
+                "libormshalclient",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "com.qti.sensor.hi846",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/camera/com.qti.sensor.hi846.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcutils",
+                "liblog",
+                "qcom.camera.log",
+                "vendor.oplus.hardware.orms@1.0",
+                "libormshalclient",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    relative_install_path: "camera",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "com.qti.sensor.imx316",
     owner: "realme",
     strip: {
@@ -9504,7 +9456,6 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libcdfw_remote_api",
-    allow_undefined_symbols: true,
     owner: "realme",
     strip: {
         none: true,
@@ -12472,6 +12423,33 @@ cc_prebuilt_library_shared {
             shared_libs: [
                 "liblog",
                 "libz",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "64",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libswvdec",
+    owner: "realme",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/libswvdec.so",
+            ],
+            shared_libs: [
+                "libcutils",
+                "libcdsprpc",
+                "liblog",
                 "libc++",
                 "libc",
                 "libm",
@@ -16727,7 +16705,6 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdservice",
-    allow_undefined_symbols: true,
     owner: "realme",
     strip: {
         none: true,
@@ -20387,7 +20364,6 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "xtra-daemon",
-    allow_undefined_symbols: true,
     owner: "realme",
     target: {
         android_arm64: {
@@ -20426,7 +20402,6 @@ cc_prebuilt_binary {
 
 cc_prebuilt_binary {
     name: "xtwifi-client",
-    check_elf_files: false,
     owner: "realme",
     target: {
         android_arm64: {
@@ -20451,6 +20426,8 @@ cc_prebuilt_binary {
                 "libasn1cper",
                 "libasn1crt",
                 "libasn1crtx",
+                "libxtwifi_server_protocol",
+                "libxtwifi_server_protocol_uri_v3",
                 "liblowi_client",
                 "libc++",
                 "libc",
