@@ -20403,6 +20403,7 @@ cc_prebuilt_binary {
 cc_prebuilt_binary {
     name: "xtwifi-client",
     owner: "realme",
+    allow_undefined_symbols: true,
     target: {
         android_arm64: {
             srcs: [
